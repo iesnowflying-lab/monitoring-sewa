@@ -1,5 +1,6 @@
 import streamlit as st
-from streamlit_gsheets import GSheetsConnection
+from medical_gsheets import GSheetsConnection # Jika sebelumnya error, coba gunakan:
+# from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 from datetime import datetime
 import plotly.express as px
